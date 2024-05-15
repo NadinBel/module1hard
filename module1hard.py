@@ -1,9 +1,5 @@
 
-# name = input('name')
-# dig = list(input('оценки'))
-# dig_1 = map(int, list(input('оценки')))
-# a = {name: sum(dig_1)/len(dig)}
-# print(a)
+
 grades = [[5, 3, 3, 5, 4], [2, 2, 2, 3], [4, 5, 5, 2], [4, 4, 3], [5, 5, 5, 4, 5]]
 students = sorted({'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'})
 result = {students[0]: sum(grades[0])/len(grades[0]),
